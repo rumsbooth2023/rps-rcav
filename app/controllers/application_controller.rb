@@ -3,5 +3,7 @@ class ApplicationController < ActionController::Base
 
   # Add your actions below this line
   # ================================
-
+  def play_rock
+    redirect_to("https://www.google.com")
+  end
 end
